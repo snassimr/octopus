@@ -1,0 +1,19 @@
+
+cd _work/rags/rags
+
+conda activate rags
+
+streamlit run 1_🏠_Home.py
+
+
+git clone https://github.com/run-llama/rags.git
+
+date -d @$(stat -c '%W' .)
+
+## version update
+
+conda activate rags
+pip install install -r requirements.txt
+
+copy .streamlit folder to rags folder (folder with latest version)
+copy files folder to rags folder (folder with latest version)
